@@ -3,6 +3,7 @@
     "types": [
       "node"
     ],
+    "checkJs": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
