@@ -1,0 +1,363 @@
+[
+    {
+        "steamlink":  null,
+        "name":  "Diablo Immortal",
+        "description":  "Diablo Immortal is a mobile Massively Multiplayer Online Action RPG (MMOARPG) developed by Blizzard Entertainment in partnership with NetEase, coming exclusively to Android, iPhone and iPad.",
+        "rating":  43.82868448735065,
+        "releaseDates":  {
+                             "PC (Microsoft Windows)":  {
+                                                            "Region":  "worldwide",
+                                                            "Date":  "Jun 02, 2022"
+                                                        },
+                             "iOS":  {
+                                         "Region":  "worldwide",
+                                         "Date":  "Jun 30, 2022"
+                                     },
+                             "Android":  {
+                                             "Region":  "worldwide",
+                                             "Date":  "Jun 02, 2022"
+                                         }
+                         },
+        "ratingCount":  24,
+        "igdbId":  111651,
+        "platforms":  [
+                          "PC (Microsoft Windows)",
+                          "Android",
+                          "iOS"
+                      ],
+        "genres":  [
+                       "Role-playing (RPG)"
+                   ]
+    },
+    {
+        "steamlink":  "http://store.steampowered.com/app/1370050/",
+        "name":  "Trek to Yomi",
+        "description":  "As a vow to his dying Master, the young swordsman Hiroki is sworn to protect his town and the people he loves against all threats. Faced with tragedy and bound to duty, the lone samurai must voyage beyond life and death to confront himself and decide his path forward.",
+        "rating":  70.4650558831379,
+        "releaseDates":  {
+                             "PlayStation 4":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "May 05, 2022"
+                                               },
+                             "PC (Microsoft Windows)":  {
+                                                            "Region":  "worldwide",
+                                                            "Date":  "May 05, 2022"
+                                                        },
+                             "PlayStation 5":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "May 05, 2022"
+                                               },
+                             "Xbox Series X|S":  {
+                                                     "Region":  "worldwide",
+                                                     "Date":  "May 05, 2022"
+                                                 },
+                             "Xbox One":  {
+                                              "Region":  "worldwide",
+                                              "Date":  "May 05, 2022"
+                                          }
+                         },
+        "ratingCount":  24,
+        "igdbId":  152203,
+        "platforms":  [
+                          "PC (Microsoft Windows)",
+                          "PlayStation 4",
+                          "Xbox One",
+                          "PlayStation 5",
+                          "Xbox Series X|S"
+                      ],
+        "genres":  [
+                       "Hack and slash",
+                       "Adventure",
+                       "Indie"
+                   ]
+    },
+    {
+        "steamlink":  null,
+        "name":  "Forza Motorsport",
+        "description":  "The 8th entry in the Forza Motorsport series.",
+        "rating":  null,
+        "releaseDates":  {
+                             "Xbox Series X|S":  {
+                                                     "Region":  "worldwide",
+                                                     "Date":  "2023"
+                                                 },
+                             "PC (Microsoft Windows)":  {
+                                                            "Region":  "worldwide",
+                                                            "Date":  "2023"
+                                                        }
+                         },
+        "ratingCount":  null,
+        "igdbId":  78511,
+        "platforms":  [
+                          "PC (Microsoft Windows)",
+                          "Xbox Series X|S"
+                      ],
+        "genres":  [
+                       "Racing",
+                       "Simulator"
+                   ]
+    },
+    {
+        "steamlink":  "http://store.steampowered.com/app/1117850/",
+        "name":  "Cuphead: The Delicious Last Course",
+        "description":  "In Cuphead: The Delicious Last Course, Cuphead and Mugman are joined by Ms. Chalice for a DLC add-on adventure on a brand new island! With new weapons, new charms, and Ms. Chalice\u0027s brand new abilities, take on a new cast of multi-faceted, screen-filling bosses to assist Chef Saltbaker in Cuphead\u0027s final challenging quest.",
+        "rating":  89.8544895596232,
+        "releaseDates":  {
+                             "PlayStation 4":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "Jun 30, 2022"
+                                               },
+                             "PC (Microsoft Windows)":  {
+                                                            "Region":  "worldwide",
+                                                            "Date":  "Jun 30, 2022"
+                                                        },
+                             "Mac":  {
+                                         "Region":  "worldwide",
+                                         "Date":  "Jun 30, 2022"
+                                     },
+                             "Xbox One":  {
+                                              "Region":  "worldwide",
+                                              "Date":  "Jun 30, 2022"
+                                          },
+                             "Nintendo Switch":  {
+                                                     "Region":  "worldwide",
+                                                     "Date":  "Jun 30, 2022"
+                                                 }
+                         },
+        "ratingCount":  11,
+        "igdbId":  103287,
+        "platforms":  [
+                          "PC (Microsoft Windows)",
+                          "Mac",
+                          "PlayStation 4",
+                          "Xbox One",
+                          "Nintendo Switch"
+                      ],
+        "genres":  [
+                       "Platform",
+                       "Adventure",
+                       "Indie"
+                   ]
+    },
+    {
+        "steamlink":  "http://store.steampowered.com/app/1298140/",
+        "name":  "FOBIA: St. Dinfna Hotel",
+        "description":  "Fobia: St. Dinfna Hotel is a first-person psychological horror indie game focused on environment exploration, survival and puzzles solving, developed by the Brazilian studio Pulsatrix Studios. It is being developed since 2018.",
+        "rating":  75.0,
+        "releaseDates":  {
+                             "PlayStation 5":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "Jun 28, 2022"
+                                               },
+                             "PlayStation 4":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "Jun 28, 2022"
+                                               },
+                             "Xbox Series X|S":  {
+                                                     "Region":  "worldwide",
+                                                     "Date":  "Jun 28, 2022"
+                                                 },
+                             "PC (Microsoft Windows)":  {
+                                                            "Region":  "worldwide",
+                                                            "Date":  "Jun 28, 2022"
+                                                        },
+                             "Xbox One":  {
+                                              "Region":  "worldwide",
+                                              "Date":  "Jun 28, 2022"
+                                          },
+                             "Linux":  {
+                                           "Region":  "worldwide",
+                                           "Date":  "Jun 28, 2022"
+                                       }
+                         },
+        "ratingCount":  2,
+        "igdbId":  133059,
+        "platforms":  [
+                          "Linux",
+                          "PC (Microsoft Windows)",
+                          "PlayStation 4",
+                          "Xbox One",
+                          "PlayStation 5",
+                          "Xbox Series X|S"
+                      ],
+        "genres":  [
+                       "Adventure",
+                       "Indie"
+                   ]
+    },
+    {
+        "steamlink":  "http://store.steampowered.com/app/1964820/",
+        "name":  "Sprout Valley",
+        "description":  "Sprout Valley is an upcoming farming simulator game where you can step back from the busy life and grow the garden of your dreams. Captivating story, hand-crafted experience, cute graphics and many more!",
+        "rating":  null,
+        "releaseDates":  {
+                             "PC (Microsoft Windows)":  {
+                                                            "Region":  "worldwide",
+                                                            "Date":  "Jul 10, 2023"
+                                                        }
+                         },
+        "ratingCount":  null,
+        "igdbId":  198626,
+        "platforms":  [
+                          "PC (Microsoft Windows)"
+                      ],
+        "genres":  [
+                       "Role-playing (RPG)",
+                       "Simulator",
+                       "Indie"
+                   ]
+    },
+    {
+        "steamlink":  "http://store.steampowered.com/app/1341820/",
+        "name":  "As Dusk Falls",
+        "description":  "As Dusk Falls is an original interactive drama from INTERIOR/NIGHT that explores the entangled lives of two families across thirty years. Starting in 1998 with a robbery-gone-wrong in small town Arizona, the choices you make have a powerful impact on the characters’ lives in this uncompromising story of betrayal, sacrifice and resilience. Drive the lives and relationships of multiple characters in a decades-spanning story told across two intense books.",
+        "rating":  null,
+        "releaseDates":  {
+                             "Xbox Series X|S":  {
+                                                     "Region":  "worldwide",
+                                                     "Date":  "Jul 19, 2022"
+                                                 },
+                             "PC (Microsoft Windows)":  {
+                                                            "Region":  "worldwide",
+                                                            "Date":  "Jul 19, 2022"
+                                                        },
+                             "Xbox One":  {
+                                              "Region":  "worldwide",
+                                              "Date":  "Jul 19, 2022"
+                                          }
+                         },
+        "ratingCount":  null,
+        "igdbId":  135995,
+        "platforms":  [
+                          "PC (Microsoft Windows)",
+                          "Xbox One",
+                          "Xbox Series X|S"
+                      ],
+        "genres":  [
+                       "Adventure"
+                   ]
+    },
+    {
+        "steamlink":  "http://store.steampowered.com/app/668580/",
+        "name":  "Atomic Heart",
+        "description":  "Atomic Heart is an adventure first-person shooter, events of which unfolds in an alternate universe during the high noon of the Soviet Union. The principal character of the game is a special agent P-3, who after an unsuccessful landing on enterprise \"3826\" is trying to figure out what went wrong.",
+        "rating":  null,
+        "releaseDates":  {
+                             "PlayStation 4":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "Q4 2022"
+                                               },
+                             "PC (Microsoft Windows)":  {
+                                                            "Region":  "worldwide",
+                                                            "Date":  "Q4 2022"
+                                                        },
+                             "PlayStation 5":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "Q4 2022"
+                                               },
+                             "Xbox Series X|S":  {
+                                                     "Region":  "worldwide",
+                                                     "Date":  "Q4 2022"
+                                                 },
+                             "Xbox One":  {
+                                              "Region":  "worldwide",
+                                              "Date":  "Q4 2022"
+                                          }
+                         },
+        "ratingCount":  null,
+        "igdbId":  76747,
+        "platforms":  [
+                          "PC (Microsoft Windows)",
+                          "PlayStation 4",
+                          "Xbox One",
+                          "PlayStation 5",
+                          "Xbox Series X|S"
+                      ],
+        "genres":  [
+                       "Shooter",
+                       "Adventure"
+                   ]
+    },
+    {
+        "steamlink":  null,
+        "name":  "Tom Clancy\u0027s Ghost Recon: Breakpoint",
+        "description":  "Tom Clancy\u0027s Ghost Recon Breakpoint is a military shooter set in a diverse and hostile open world entirely playable solo or in up to four-player co-op. Players will discover Auroa, a mysterious island where the most technically advanced facilities meet wild and untamed nature. Home to drone creators, tech giant Skell Technology, Auroa has fallen into the wrong hands and all contact has been lost.",
+        "rating":  57.6031840432785,
+        "releaseDates":  {
+                             "PlayStation 4":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "Oct 04, 2019"
+                                               },
+                             "PC (Microsoft Windows)":  {
+                                                            "Region":  "worldwide",
+                                                            "Date":  "Oct 04, 2019"
+                                                        },
+                             "Xbox One":  {
+                                              "Region":  "worldwide",
+                                              "Date":  "Oct 04, 2019"
+                                          },
+                             "Google Stadia":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "2019"
+                                               }
+                         },
+        "ratingCount":  54,
+        "igdbId":  118218,
+        "platforms":  [
+                          "PC (Microsoft Windows)",
+                          "PlayStation 4",
+                          "Xbox One",
+                          "Google Stadia"
+                      ],
+        "genres":  [
+                       "Shooter",
+                       "Tactical",
+                       "Adventure"
+                   ]
+    },
+    {
+        "steamlink":  "http://store.steampowered.com/app/397540/",
+        "name":  "Borderlands 3",
+        "description":  "The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure! Blast through new worlds and enemies as one of four new Vault Hunters. Play solo or with friends to take on insane enemies, score loads of loot and save your home from the most ruthless cult leaders in the galaxy.",
+        "rating":  79.82325358259675,
+        "releaseDates":  {
+                             "PC (Microsoft Windows)":  {
+                                                            "Region":  "worldwide",
+                                                            "Date":  "Sep 13, 2019"
+                                                        },
+                             "Xbox Series X|S":  {
+                                                     "Region":  "worldwide",
+                                                     "Date":  "Nov 10, 2020"
+                                                 },
+                             "PlayStation 5":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "Nov 12, 2020"
+                                               },
+                             "Google Stadia":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "Dec 17, 2019"
+                                               },
+                             "Xbox One":  {
+                                              "Region":  "worldwide",
+                                              "Date":  "Sep 13, 2019"
+                                          },
+                             "PlayStation 4":  {
+                                                   "Region":  "worldwide",
+                                                   "Date":  "Sep 13, 2019"
+                                               }
+                         },
+        "ratingCount":  223,
+        "igdbId":  19164,
+        "platforms":  [
+                          "PC (Microsoft Windows)",
+                          "PlayStation 4",
+                          "Xbox One",
+                          "PlayStation 5",
+                          "Xbox Series X|S",
+                          "Google Stadia"
+                      ],
+        "genres":  [
+                       "Shooter"
+                   ]
+    }
+]
