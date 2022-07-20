@@ -1,6 +1,6 @@
 import * as React from "react";
 import {  Text } from "react-native";
-import { BaseContent } from "../../components/BaseContent";
+import { BaseContent } from "../../../components/base-layout/BaseContent";
 
 interface Props {
   title: string;

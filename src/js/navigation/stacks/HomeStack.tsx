@@ -1,7 +1,7 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import * as Colors from "../../util/Color";
-import { GameDetailsScreen } from "../screens/GameDetailsScreen";
-import { HomeScreen } from "../screens/HomeScreen";
+import { GameDetailsScreen } from "../screens/games/GameDetailsScreen";
+import { HomeScreen } from "../screens/home/HomeScreen";
 
 
 const Stack = createStackNavigator();
