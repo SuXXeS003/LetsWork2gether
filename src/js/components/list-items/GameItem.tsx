@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
 import { Image, Text, View } from "react-native";
+import { useTailwind } from "tailwind-rn/dist";
 import { Game } from "../../remotes/GameRemote";
 
 interface Props extends React.BaseHTMLAttributes<ReactElement> {
@@ -8,10 +9,13 @@ interface Props extends React.BaseHTMLAttributes<ReactElement> {
 }
 
 const GameItem = ({ game, index }: Props) => {
+
+  const tw = useTailwind();
+  
   return (
     <View
       key={game.igdbId?.toString()}
-      className="tw-flex tw-flex-1 tw-flex-col tw-p-4 tw-w-full"
+      style={tw("flex flex-1 flex-col p-4 w-full")}
     >
       
       <Image
@@ -20,7 +24,7 @@ const GameItem = ({ game, index }: Props) => {
           uri: game.imageUrl || "",
         }}
       />
-      <Text className="tw-text-white">{game.name}</Text>
+      <Text style={tw("text-white")}>{game.name}</Text>
     </View>
   );
 };

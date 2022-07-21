@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
 import {  Text, View } from "react-native";
+import { useTailwind } from "tailwind-rn/dist";
 
 interface Props extends React.BaseHTMLAttributes<ReactElement>{
 
@@ -8,8 +9,10 @@ interface Props extends React.BaseHTMLAttributes<ReactElement>{
 const Header = ( {
 
 }:Props) => {
+
+    const tw = useTailwind();
     return (
-        <View className="tw-flex tw-bg-secondary-300">
+        <View style={tw("flex bg-secondary-300")}>
         <Text>Header</Text>       
         </View>
 
