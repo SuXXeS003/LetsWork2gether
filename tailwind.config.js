@@ -11,8 +11,8 @@ module.exports = {
   theme: {colors: {
     primary: {
       DEFAULT: "#171637",
-      300: "#6D6BB2",
-      400: "#4E4C80",
+      300: "#1E1B73",
+      400: "#1C1A51",
       500: "#171637",
       600: "#0C0B37",
       700: "#010037",
@@ -67,7 +67,7 @@ fontSize:{
     extend: {},
 
   },
-  
+
   plugins: [],
   corePlugins: require('tailwind-rn/unsupported-core-plugins'),
 }

@@ -7,14 +7,16 @@ import { Game } from "../../remotes/GameRemote";
 interface Props extends React.BaseHTMLAttributes<ReactElement> {
   game: Game;
   index: number;
+  onPress: () => void;
 }
 
-const GameItem = ({ game, index }: Props) => {
+const GameItem = ({ game, index, onPress }: Props) => {
   const tw = useTailwind();
 
   return (
     <TouchableOpacity
       style={tw("flex-col bg-primary-400 rounded-lg items-center mr-2 h-52")}
+      onPress={onPress}
     >
       <Image
         style={tw("h-2/3 w-32 rounded-t-lg")}

@@ -9,8 +9,8 @@ import { useTailwind } from "tailwind-rn";
 interface Props {}
 
 const HomeScreen = ({ navigation }: any, {}: Props) => {
-  function handlePress() {
-    navigation.navigate("Games Details");
+  function handleOnPress(game:Game) {
+    navigation.navigate("Games Details", {game});
   }
 
 const tw = useTailwind();
@@ -31,7 +31,7 @@ const tw = useTailwind();
           renderItem={(item) => {
             const game = item.item as Game;
             return (
-                <GameItem game={game} index={0}></GameItem>
+                <GameItem game={game} index={0} onPress={()=>handleOnPress(game)}></GameItem>
             );
           }}
           keyExtractor={(item) => item.igdbId.toString()}

@@ -2,8 +2,9 @@ import { createStackNavigator } from "@react-navigation/stack";
 import * as Colors from "../../util/Color";
 import { GameDetailsScreen } from "../screens/games/GameDetailsScreen";
 import { GamesScreen } from "../screens/games/GamesScreen";
+import { GameStackParamList } from "./GameStackParamList";
 
-const Stack = createStackNavigator();
+const Stack = createStackNavigator<GameStackParamList>();
 
 function GamesStack() {
   return (
@@ -12,7 +13,7 @@ function GamesStack() {
         headerStyle: {
           backgroundColor: Colors.PRIMARY,
         },
-        headerTintColor: Colors.WHITE
+        headerTintColor: Colors.WHITE,
       }}
     >
       <Stack.Screen
@@ -23,8 +24,7 @@ function GamesStack() {
       <Stack.Screen
         name="Games Details"
         component={GameDetailsScreen}
-        options={({ route }) => ({
-          title: "Hier kommt Param hin",
+        options={() => ({
           headerStyle: {
             backgroundColor: Colors.PRIMARY,
           },
