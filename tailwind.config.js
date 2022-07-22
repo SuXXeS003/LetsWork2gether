@@ -1,9 +1,13 @@
 module.exports = {
-  content: [ "./App.{js,jsx,ts,tsx}",
+
+  content: [
+     "./App.{js,jsx,ts,tsx}",
   "./src/**/*.{js,jsx,ts,tsx}",
   "./screens/**/*.{js,ts,jsx,tsx}",
   "./pages/**/*.{js,ts,jsx,tsx}",
-  "./components/**/*.{js,ts,jsx,tsx}",],
+  "./components/**/*.{js,ts,jsx,tsx}",
+],
+
   theme: {colors: {
     primary: {
       DEFAULT: "#171637",
@@ -44,6 +48,7 @@ module.exports = {
   fontFamily: {
     sans: ["Inter"],
   },
+
 fontSize:{
   'xs': '.75rem',
   'sm': '.875rem',
@@ -58,8 +63,11 @@ fontSize:{
   '6xl': '4rem',
   '7xl': '5rem',
 },
+
     extend: {},
+
   },
+  
   plugins: [],
   corePlugins: require('tailwind-rn/unsupported-core-plugins'),
 }

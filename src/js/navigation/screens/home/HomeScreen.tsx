@@ -6,7 +6,6 @@ import GameList from "../GameObject.json";
 import { GameItem } from "../../../components/list-items/GameItem";
 import { useTailwind } from "tailwind-rn";
 
-
 interface Props {}
 
 const HomeScreen = ({ navigation }: any, {}: Props) => {
@@ -16,53 +15,32 @@ const HomeScreen = ({ navigation }: any, {}: Props) => {
 
 const tw = useTailwind();
 
-  const [games, setGames] = useState<Game[]>([]);
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  function fetchData() {
-    const myGameList: Game[] = [];
-
-    setGames(myGameList);
-  }
-  
   return (
     <BaseContent>
-      <View style={tw("h-full bg-secondary-300 flex flex-col justify-between")}>
+      <View style={tw("h-full")}>
         <FlatList
           ListHeaderComponent={
             <View>
-              <Text style={tw("text-white text-xs")}>New Releases</Text>
+              <Text style={tw("text-white text-xl")}>New Releases</Text>
             </View>
           }
-          ListHeaderComponentStyle={styles.listHeader}
-          contentContainerStyle={styles.listContent}
+          ListHeaderComponentStyle={tw("h-12 text-xl")}
+          columnWrapperStyle={tw("py-2")}
           data={GameList}
           numColumns={2}
           renderItem={(item) => {
             const game = item.item as Game;
             return (
-              <View>
                 <GameItem game={game} index={0}></GameItem>
-              </View>
             );
           }}
           keyExtractor={(item) => item.igdbId.toString()}
         ></FlatList>
       </View>
-    </BaseContent>
+      </BaseContent>
   );
 };
 
 const styles = StyleSheet.create({
-  listHeader: {
-    height: 55,
-    justifyContent: "center",
-  },
-  listContent: {
-    padding: 24,
-  },
 });
 export { HomeScreen };
