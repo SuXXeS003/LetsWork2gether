@@ -1,4 +1,3 @@
-import { takeWhile } from "lodash";
 import * as React from "react";
 import { View, Text } from "react-native";
 import { useTailwind } from "tailwind-rn";

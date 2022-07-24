@@ -17,19 +17,13 @@ function GamesStack() {
       }}
     >
       <Stack.Screen
-        name="Games Stack"
+        name="GamesScreen"
         component={GamesScreen}
         options={{ title: "Games" }}
       />
       <Stack.Screen
-        name="Games Details"
+        name="GameDetails"
         component={GameDetailsScreen}
-        options={() => ({
-          headerStyle: {
-            backgroundColor: Colors.PRIMARY,
-          },
-          headerTintColor: Colors.WHITE,
-        })}
       />
     </Stack.Navigator>
   );

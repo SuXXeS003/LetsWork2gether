@@ -1,10 +1,10 @@
-import { createStackNavigator } from "@react-navigation/stack";
+import { createStackNavigator, StackScreenProps } from "@react-navigation/stack";
 import * as Colors from "../../util/Color";
 import { GameDetailsScreen } from "../screens/games/GameDetailsScreen";
 import { HomeScreen } from "../screens/home/HomeScreen";
+import {HomeStackParamList} from "./HomeStackParamList"
 
-
-const Stack = createStackNavigator();
+const Stack = createStackNavigator<HomeStackParamList>();
 
 function HomeStack() {
   return (
@@ -17,7 +17,7 @@ function HomeStack() {
       }}
     >
       <Stack.Screen
-        name="Home Stack"
+        name="HomeScreen"
         component={HomeScreen}
         options={{
           headerShown: false,
@@ -25,10 +25,10 @@ function HomeStack() {
       />
 
       <Stack.Screen
-        name="Games Details"
+        name="GameDetails"
         component={GameDetailsScreen}
-        options={({ route }) => ({
-          title: "Hier kommt Param hin",
+        options={({ route}) => ({
+          title:  route.params?.game.name ,
         })}
       />
     </Stack.Navigator>

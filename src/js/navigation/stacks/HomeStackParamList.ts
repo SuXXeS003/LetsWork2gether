@@ -1,6 +1,6 @@
 import { Game } from "../../remotes/GameRemote";
 
-export type GameStackParamList = {
-  GamesScreen: undefined;
+export type HomeStackParamList = {
+  HomeScreen: undefined;
   GameDetails: { game: Game };
 };

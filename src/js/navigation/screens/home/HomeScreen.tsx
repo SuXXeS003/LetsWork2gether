@@ -10,7 +10,7 @@ interface Props {}
 
 const HomeScreen = ({ navigation }: any, {}: Props) => {
   function handleOnPress(game:Game) {
-    navigation.navigate("Games Details", {game});
+    navigation.navigate("GameDetails", {game});
   }
 
 const tw = useTailwind();

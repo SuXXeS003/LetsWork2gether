@@ -1841,6 +1841,13 @@
   "resolved" "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
   "version" "15.7.5"
 
+"@types/react-native-read-more-text@^1.0.1":
+  "integrity" "sha512-DYdEJ9xWgqPIacn5aSfMpRxXW1Z7r+/qY6V+vr+t3+5hqZRUv61xFwIj2QBbUQrzJKyq+niTBckVYIM9aLNJ2w=="
+  "resolved" "https://registry.npmjs.org/@types/react-native-read-more-text/-/react-native-read-more-text-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-native@~0.66.13":
   "integrity" "sha512-Y7lpJvsAzg7hjTDfKf0Ix7ETohKmFEa2f0R6clXjX4cSG4Ixo/BbWSmbYCRsMJqJbqkuuJYH0VD7tb2UG7mP3Q=="
   "resolved" "https://registry.npmjs.org/@types/react-native/-/react-native-0.66.19.tgz"
@@ -6111,6 +6118,11 @@
   "integrity" "sha512-HOf0jzRnq2/aFUcdCJ9w9JGzN3gdEg0zFE4FyYlp4jtidqU03D5X7ZegGKfT1EWteR0gPBGp9ye5T5FvSWi9Yg=="
   "resolved" "https://registry.npmjs.org/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.3.1.tgz"
   "version" "1.3.1"
+
+"react-native-read-more-text@^1.1.2":
+  "integrity" "sha512-FIQhOpvikUanwPRl9QVBYmx6Wx7IXxXH/jlzElOLcP+NSgFLw2fRzSekQUq0yicymZsi7cAWW5TtIj8FHWtNDw=="
+  "resolved" "https://registry.npmjs.org/react-native-read-more-text/-/react-native-read-more-text-1.1.2.tgz"
+  "version" "1.1.2"
 
 "react-native-reanimated@~2.8.0":
   "integrity" "sha512-kJvf/UWLBMaGCs9X66MKq5zdFMgwx8D0nHnolbHR7s8ZnbLdb7TlQ/yuzIXqn/9wABfnwtNRI3CyaP1aHWMmZg=="
