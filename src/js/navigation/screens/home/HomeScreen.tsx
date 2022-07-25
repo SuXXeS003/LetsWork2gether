@@ -1,14 +1,17 @@
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 import { View, Text, Image, FlatList, StyleSheet } from "react-native";
 import { BaseContent } from "../../../components/base-layout/BaseContent";
 import { Game } from "../../../remotes/GameRemote";
 import GameList from "../GameObject.json";
 import { GameItem } from "../../../components/list-items/GameItem";
 import { useTailwind } from "tailwind-rn";
+import type { StackScreenProps } from "@react-navigation/stack";
+import { HomeStackParamList } from "../../stacks/HomeStackParamList";
 
-interface Props {}
+type Props = StackScreenProps<HomeStackParamList, "HomeScreen">;
 
-const HomeScreen = ({ navigation }: any, {}: Props) => {
+
+const HomeScreen = ({ navigation, route }: Props) => {
   function handleOnPress(game:Game) {
     navigation.navigate("GameDetails", {game});
   }
@@ -41,6 +44,4 @@ const tw = useTailwind();
   );
 };
 
-const styles = StyleSheet.create({
-});
 export { HomeScreen };
