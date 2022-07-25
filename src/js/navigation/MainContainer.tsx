@@ -3,7 +3,6 @@ import * as Colors from "../util/Color";
 
 import { BottomTabNavigation } from "./BottomTabNavigation";
 import { StatusBar } from "expo-status-bar";
-import { takeWhile } from "lodash";
 import { useTailwind } from "tailwind-rn/dist";
 
 export default function MainContainer() {
