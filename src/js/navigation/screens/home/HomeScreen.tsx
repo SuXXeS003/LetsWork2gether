@@ -20,7 +20,6 @@ const tw = useTailwind();
 
   return (
     <BaseContent>
-      <View style={tw("h-full")}>
         <FlatList
           ListHeaderComponent={
             <View>
@@ -39,7 +38,6 @@ const tw = useTailwind();
           }}
           keyExtractor={(item) => item.igdbId.toString()}
         ></FlatList>
-      </View>
       </BaseContent>
   );
 };

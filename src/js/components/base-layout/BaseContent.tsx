@@ -12,7 +12,7 @@ const BaseContent = ( {
   const tw = useTailwind();
 
     return (
-        <View style={tw("flex h-full bg-primary p-6")}>
+        <View style={tw("flex h-full bg-primary p-6 items-center")}>
           {rest.children}
         </View>
       );
