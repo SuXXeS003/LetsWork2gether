@@ -12,10 +12,9 @@ import { BaseContent } from "../../../components/base-layout/BaseContent";
 import { useTailwind } from "tailwind-rn";
 import { GameStackParamList } from "../../stacks/GameStackParamList";
 import { InfoCard } from "./components/InfoCard";
-import Icon from "@mdi/react";
-import { mdiSteam } from "@mdi/js";
 import * as Colors from "../../../util/Color";
 import { FlatList, TouchableOpacity } from "react-native-gesture-handler";
+import { SteamIcon } from "../../../components/Icons";
 
 type Props = StackScreenProps<GameStackParamList, "GameDetails">;
 
@@ -40,7 +39,9 @@ const GameDetailsScreen = ({ navigation, route }: Props) => {
         />
 
         <BaseContent>
-          <ScrollView contentContainerStyle={{flexGrow:1,paddingBottom:125}} >
+          <ScrollView
+            contentContainerStyle={{ flexGrow: 1, paddingBottom: 125 }}
+          >
             <InfoCard>
               <Text numberOfLines={3} style={tw("text-white font-bold")}>
                 {game.name}
@@ -74,22 +75,21 @@ const GameDetailsScreen = ({ navigation, route }: Props) => {
               </View>
             </InfoCard>
 
-            {/* <InfoCard expandable={false}>
-          <View style={tw("flex-col")}>
-            <Text style={textStyleBold}>Links</Text>
-            {game.steamlink ? (
-              <TouchableOpacity onPress={() => handleOpenLink(game.steamlink!)}>
-                <Icon
-                  path={mdiSteam}
-                  size={3}
-                  color={Colors.WHITE}
-                />
-               </TouchableOpacity>
-            ) : (
-              null
-            )}
-          </View>
-        </InfoCard> */}
+            <InfoCard expandable={false}>
+              <View style={tw("flex-col")}>
+                <Text style={textStyleBold}>Links</Text>
+                <View style={tw("flex-row items-center content-center p-2 mx-2 justify-between")}>
+                {game.steamlink ? (
+                  <TouchableOpacity
+                  style={tw("w-12 h-12 text-white items-center")}
+                    onPress={() => handleOpenLink(game.steamlink!)}
+                  >
+                    <SteamIcon size="medium"/>
+                  </TouchableOpacity>
+                ) : null}
+                </View>
+              </View>
+            </InfoCard>
           </ScrollView>
         </BaseContent>
       </View>
