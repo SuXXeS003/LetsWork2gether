@@ -78,15 +78,15 @@ const GameDetailsScreen = ({ navigation, route }: Props) => {
             <InfoCard expandable={false}>
               <View style={tw("flex-col")}>
                 <Text style={textStyleBold}>Links</Text>
-                <View style={tw("flex-row items-center content-center p-2 mx-2 justify-between")}>
-                {game.steamlink ? (
-                  <TouchableOpacity
-                  style={tw("w-12 h-12 text-white items-center")}
-                    onPress={() => handleOpenLink(game.steamlink!)}
-                  >
-                    <SteamIcon size="medium"/>
-                  </TouchableOpacity>
-                ) : null}
+                <View style={tw("flex-row items-center py-2")}>
+                  {game.steamlink ? (
+                    <TouchableOpacity
+                      style={tw(" text-white items-center")}
+                      onPress={() => handleOpenLink(game.steamlink!)}
+                    >
+                      <SteamIcon size={"large"}/>
+                    </TouchableOpacity>
+                  ) : null}
                 </View>
               </View>
             </InfoCard>
